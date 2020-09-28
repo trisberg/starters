@@ -1,0 +1,48 @@
+---
+name: spring-mysql-jpa
+displayName: Spring Data JPA with MySQL
+version: 1.0.0
+sourceUrl: github.com/markpollack/gs-accessing-data-mysql
+language: java
+framework: spring
+services: mysql
+homeUrl: https://github.com/spring-guides/gs-accessing-data-mysql
+tags:
+  - database
+  - spring
+  - jpa
+  - mysql
+maintainer: https://github.com/dsyer
+description: A Spring Boot application that connects to a MySQL database and uses Spring Data JPA to access the database.  Contains stub code for accessing User data using Spring Data JPA.
+iconUrl: https://raw.githubusercontent.com/simple-starters/icons/master/icon-data.png
+
+---
+name: hello-fun
+displayName: Spring Cloud Function Serverless App
+version: 0.0.1-SNAPSHOT
+sourceUrl: github.com/simple-starters/hello-fun?ref=v0.1.0
+language: java
+framework: spring
+homeUrl: https://github.com/simple-starters/hello-fun
+tags:
+  - spring
+  - cloud
+  - function
+maintainer: https://github.com/trisberg
+description: A basic hello world Spring Cloud Function serverless app
+iconUrl: https://raw.githubusercontent.com/simple-starters/icons/master/icon-cloud.png
+
+---
+name: hello-ruby
+displayName: Sample Ruby App
+version: 0.0.1-SNAPSHOT
+sourceUrl: github.com/simple-starters/hello-ruby?ref=master
+language: ruby
+framework: sinatra
+homeUrl: https://github.com/simple-starters/hello-ruby
+tags:
+  - ruby
+  - sinatra
+maintainer: https://github.com/trisberg
+description: A basic hello world Ruby and Sinatra app
+iconUrl: https://raw.githubusercontent.com/simple-starters/icons/master/icon-ruby.png

@@ -1,0 +1,14 @@
+name: github-repo-create
+version: 1.0.0
+displayName: Create a github repository
+description: Creates a github repository
+iconUrl: https://i.imgur.com/yj0qhXm.png
+maintainer: mpollack@vmware.com
+tags: github
+steps:
+  - name: CreateStarterProjectStep
+    className: com.vmware.tss.server.steps.CreateStarterProjectStep  # note, not used ATM
+  - name: GeneratorStep
+    className: com.vmware.tss.server.steps.GeneratorStep  # note, not used ATM
+  - name: CreateGitHubRepoStep
+    className: com.vmware.tss.server.steps.CreateGitHubRepoStep # note, not used ATM

@@ -1,0 +1,28 @@
+starterName: spring-mysql-jpa
+starterMetadataName: spring-mysql-jpa
+generatorMetadataNames:
+  - kubernetes-kustomize-skaffold
+  - kubernetes-resource-simple
+actionNames:
+  - github-repo-create
+
+---
+starterName: hello-fun
+starterMetadataName: hello-fun
+generatorMetadataNames:
+  - none
+  - knative-kustomize-skaffold
+  - kubernetes-resource-simple
+  - kubernetes-resource-skaffold
+actionNames:
+  - github-repo-create
+
+---
+starterName: hello-ruby
+starterMetadataName: hello-ruby
+generatorMetadataNames:
+  - none
+  - kubernetes-ruby-skaffold
+actionNames:
+  - github-repo-create
+
