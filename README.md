@@ -1,2 +1,3 @@
-# tanzu-starters
-Starter repository for testing
+# accelerators
+
+Accelerator repository for testing
