@@ -36,7 +36,6 @@ maintainer: https://github.com/trisberg
 description: A basic hello world Spring Cloud Function serverless app
 iconUrl: https://raw.githubusercontent.com/simple-starters/icons/master/icon-cloud.png
 generatorNames:
-  - none
   - knative-kustomize-skaffold
   - kubernetes-resource-simple
   - kubernetes-resource-skaffold
@@ -61,7 +60,6 @@ maintainer: https://github.com/trisberg
 description: A basic hello world Spring Cloud Function serverless app with GraalVM Native Image Compilation
 iconUrl: https://raw.githubusercontent.com/simple-starters/icons/master/icon-cloud.png
 generatorNames:
-  - none
   - knative-native-image
 actionNames:
   - github-repo-create
@@ -125,7 +123,6 @@ maintainer: https://github.com/trisberg
 description: A basic hello world Ruby and Sinatra app
 iconUrl: https://raw.githubusercontent.com/simple-starters/icons/master/icon-ruby.png
 generatorNames:
-  - none
   - kubernetes-web-app-skaffold
 actionNames:
   - github-repo-create
