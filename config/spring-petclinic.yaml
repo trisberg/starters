@@ -1,0 +1,16 @@
+apiVersion: accelerator.tanzu.vmware.com/v1alpha1
+kind: Accelerator
+metadata:
+  name: spring-petclinic
+spec:
+  # Add fields here
+  displayName: Spring Petclinic
+  description: A sample Spring-based application
+  iconUrl: https://github.com/scothis/spring-petclinic/raw/main/src/main/resources/static/resources/images/pets.png
+  tags:
+    - java
+    - spring
+  git:
+    url: https://github.com/simple-starters/spring-petclinic
+    ref:
+      branch: main
