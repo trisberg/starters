@@ -13,6 +13,6 @@ spec:
     - function
     - serverless
   git:
-    url: https://github.com/simple-starters/hello-fun
+    url: https://github.com/trisberg/hello-fun
     ref:
       branch: master
