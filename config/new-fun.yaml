@@ -14,6 +14,6 @@ spec:
     - serverless
     - new-new-engine
   git:
-    url: https://github.com/jldec/hello-fun/tree/new-new-engine
+    url: https://github.com/jldec/hello-fun
     ref:
       branch: new-new-engine
