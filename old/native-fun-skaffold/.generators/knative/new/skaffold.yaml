@@ -1,0 +1,29 @@
+---
+actions:
+  to: skaffold.yaml
+---
+apiVersion: skaffold/v2beta6
+kind: Config
+build:
+  artifacts:
+    - image: {{artifactId}}
+      buildpacks:
+        builder: paketobuildpacks/builder:tiny
+        env: 
+          - BP_BOOT_NATIVE_IMAGE=1
+          - BP_BOOT_NATIVE_IMAGE_BUILD_ARGUMENTS=-Dspring.native.remove-yaml-support=true
+        dependencies:
+          paths:
+            - src
+            - pom.xml
+  tagPolicy:
+    sha256: {}
+deploy:
+  kubectl:
+    manifests:
+      - kubernetes/service.yaml
+profiles:
+  - name: local
+    build:
+      local:
+        push: false

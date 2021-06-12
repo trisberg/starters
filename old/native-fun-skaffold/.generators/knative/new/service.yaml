@@ -1,0 +1,19 @@
+---
+actions:
+  to: kubernetes/service.yaml
+---
+apiVersion: serving.knative.dev/v1
+kind: Service
+metadata:
+  name: {{artifactId}}
+spec:
+  template:
+    spec:
+      containers:
+        - image: {{artifactId}}
+          livenessProbe:
+            httpGet:
+              path: /actuator/health/liveness
+          readinessProbe:
+            httpGet:
+              path: /actuator/health/readiness
