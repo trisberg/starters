@@ -3,15 +3,7 @@ kind: Accelerator
 metadata:
   name: spring-sql-jpa
 spec:
-  displayName: Spring Boot JPA
-  description: Spring Boot application that accesses an SQL database using JPA.
-  iconUrl: https://github.com/simple-starters/icons/raw/master/icon-data.png
-  tags:
-    - Java
-    - Spring
-    - JPA
-    - SQL
   git:
     url: https://github.com/simple-starters/accelerator-spring-sql-jpa
     ref:
-      branch: main
+      branch: mega
