@@ -1,0 +1,18 @@
+apiVersion: accelerator.tanzu.vmware.com/v1alpha1
+kind: Accelerator
+metadata:
+  name: hello-fun
+spec:
+  # Add fields here
+  displayName: Spring Cloud Function Serverless App
+  description: A basic hello world Spring Cloud Function serverless app
+  iconUrl: https://github.com/simple-starters/icons/raw/master/icon-cloud.png
+  tags:
+    - spring
+    - cloud
+    - function
+    - serverless
+  git:
+    url: https://github.com/sample-accelerators/hello-fun
+    ref:
+      branch: wip
